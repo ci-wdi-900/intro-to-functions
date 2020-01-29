@@ -112,12 +112,13 @@ What is x after all those function calls?
 
 #### What happens in functions stays in functions.
 
-* Inside a function, you can look at the code outside.
-* But outside a function, the code inside is a black box.
+* Inside a function, you can look at the code "outside".
+* But to code outside, the code *inside* is an impentrable black box.
 
 ---
 
-### So `bumpX` can see `x`.
+### So code in `bumpX` can see `x`.
+It's looking outside.
 
 @snap[code-noblend]
 ```javascript
