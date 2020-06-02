@@ -62,8 +62,8 @@ thumbnail : https://gitpitch.com/gpimg/tutorial-thumb.png
 
 # PITCHME-DOT-YAML-SETTINGS-THEME-BUILDER-GENERATED-START
 theme            : template
-theme-background : [ "#3E5641" ]
-theme-headline   : [ "Montserrat", "#D36135", "none", "#FFFFFF", "100", "120", "15" ]
+theme-background : [ "#41213F" ]
+theme-headline   : [ "Montserrat", "#FF7C45", "none", "#FFFFFF", "100", "120", "15" ]
 theme-byline     : [ "Raleway", "#FFFFFF", "none", "#EC8B5E", "100", "110", "15" ]
 theme-text       : [ "Ubuntu", "#FFFFFF", "none", "#ECB15E", "100", "100", "15" ]
 theme-links      : [ "#F1C40F", "#5254F7" ]
