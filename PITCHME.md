@@ -30,7 +30,7 @@ Every part of your code should have one job! That makes it easy to separate your
 ##### Something like this:
 @snap[code-noblend]
 ```javascript
-function bumpX() {
+function incrementX() {
   x = x + 1;
 }
 ```
@@ -41,15 +41,15 @@ function bumpX() {
 
 @snap[code-noblend]
 ```javascript
-function bumpX() {
+function incrementX() {
   x = x + 1;
 }
 ```
 @snapend
 
 @snap[text-08]
-* `function` declares the function - like `let` or `const` for variables.
-* `bumpX` is the name of the function.
+* `function` declares the function - like `let` for variables.
+* `incrementX` is the name of the function.
 * Everything in the curly braces is the code that runs when the function is "called".
 @snapend
 ---
@@ -60,13 +60,16 @@ function bumpX() {
 ```javascript
 let x = 3;
 
-function bumpX() {
+function incrementX() {
   x = x + 1;
 }
 ```
 @snapend
 
 POP QUIZ HOTSHOT: What is x now?
+
+@[3-5](TRICK QUESTION. The keyword `function` defines the function, but doesn't in any way run its code.)
+@[1](Like how declaring the variable and giving it a value doesn't actually EVALUATE its value.)
 
 ---
 
@@ -76,11 +79,11 @@ POP QUIZ HOTSHOT: What is x now?
 ```javascript
 let x = 3;
 
-function bumpX() {
+function incrementX() {
   x = x + 1;
 }
 
-bumpX();
+incrementX();
 ```
 @snapend
 
@@ -94,13 +97,13 @@ What is x *now*?
 ```javascript
 let x = 3;
 
-function bumpX() {
+function incrementX() {
   x = x + 1;
 }
 
-bumpX();
-bumpX();
-bumpX();
+incrementX();
+incrementX();
+incrementX();
 ```
 @snapend
 
@@ -113,24 +116,24 @@ What is x after all those function calls?
 #### What happens in functions stays in functions.
 
 * Inside a function, you can look at the code "outside".
-* But to code outside, the code *inside* is an impentrable black box.
+* But to code outside, the code *inside* is an impenetrable black box.
 
 ---
 
-### So code in `bumpX` can see `x`.
+### So code in `incrementX` can see `x`.
 It's looking outside.
 
 @snap[code-noblend]
 ```javascript
 let x = 3;
 
-function bumpX() {
+function incrementX() {
   x = x + 1;
 }
 
-bumpX();
-bumpX();
-bumpX();
+incrementX();
+incrementX();
+incrementX();
 ```
 @snapend
 
@@ -142,12 +145,12 @@ bumpX();
 ```javascript
 let x = 3;
 
-function bumpX() {
+function incrementX() {
   x = x + 1;
   let y = 3;
 }
 
-bumpX();
+incrementX();
 
 y = y + 1;
 ```
@@ -159,7 +162,7 @@ y = y + 1;
 
 ## Global Variables
 
-For a short time, we'll solve this problem by declaring our variables *globally*--that is, *outside* the function.
+For a short time, we'll solve this problem by declaring any variables we want to change *globally*--that is, *outside* the function.
 
 Variables *inside* will be for internal use only.
 
@@ -167,7 +170,7 @@ Our next tool, parameters, will be a much cleaner solution!
 
 ---
 @snap[north span-100]
-## Meanwhile, in Globalville...
+## Our new weapon:
 
 @snapend
 We now have functions!
