@@ -25,7 +25,7 @@ Every part of your code should have one job! That makes it easy to separate your
 * Figure out why it's not, in fact, doing that.
 @ulend
 @snap[south-east]
-![](./assets/img/CodeImmersives.jpg)
+![](./assets/img/CodeImmersives.png)
 @snapend
 ---
 
