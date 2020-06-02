@@ -34,7 +34,7 @@ theme-override: assets/css/PITCHME.css
 # Logo Setting
 # https://gitpitch.com/docs/settings/logo
 #
-
+logo : assets/img/CodeImmersives.png
 #
 # Layout Setting
 # Doc: https://gitpitch.com/docs/settings/layout
