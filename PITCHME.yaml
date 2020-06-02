@@ -69,7 +69,7 @@ theme-text       : [ "Ubuntu", "#FFFFFF", "none", "#ECB15E", "100", "100", "15" 
 theme-links      : [ "#F1C40F", "#5254F7" ]
 theme-code       : [ "Source Code Pro", "100", "120" ]
 highlight        : xt256
-theme-controls   : [ "#C0C0C0" ]
+theme-controls   : [ "#DBCCC6" ]
 theme-margins    : [ "0", "15px" ]
 layout           : center
 # PITCHME-DOT-YAML-SETTINGS-THEME-BUILDER-GENERATED-END
