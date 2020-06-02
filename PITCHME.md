@@ -24,6 +24,7 @@ Every part of your code should have one job! That makes it easy to separate your
 * Easily see what a bit of code is supposed to do.
 * Figure out why it's not, in fact, doing that.
 @ulend
+@snapend
 @snap[south-east]
 ![](./assets/img/CodeImmersives.png)
 @snapend
