@@ -19,9 +19,12 @@
 @snap[south span-100 text-08]
 Every part of your code should have one job! That makes it easy to separate your code, so you can:
 
+@ul
 * Run the same code whenever you need to without repeating yourself.
 * Easily see what a bit of code is supposed to do.
 * Figure out why it's not, in fact, doing that.
+@ulend
+
 @snapend
 ---
 
@@ -48,9 +51,11 @@ function incrementX() {
 @snapend
 
 @snap[text-08]
+@ul
 * `function` declares the function - like `let` for variables.
 * `incrementX` is the name of the function.
 * Everything in the curly braces is the code that runs when the function is "called".
+@ulend
 @snapend
 ---
 
@@ -66,10 +71,12 @@ function incrementX() {
 ```
 @snapend
 
-POP QUIZ HOTSHOT: What is x now?
+POP QUIZ HOTSHOT: What is `x` now?
 
-@[3-5](TRICK QUESTION. The keyword `function` defines the function, but doesn't in any way run its code.)
-@[1](Like how declaring the variable and giving it a value doesn't actually EVALUATE its value.)
+@ul
+* TRICK QUESTION. The keyword `function` defines the function, but doesn't in any way run its code.
+* Like how declaring the variable and giving it a value doesn't actually EVALUATE its value.
+@ulend
 
 ---
 
@@ -87,7 +94,7 @@ incrementX();
 ```
 @snapend
 
-What is x *now*?
+What is `x` *now*?
 
 ---
 
@@ -107,7 +114,7 @@ incrementX();
 ```
 @snapend
 
-What is x after all those function calls?
+What is `x` after all those function calls?
 
 ---
 
@@ -115,8 +122,10 @@ What is x after all those function calls?
 
 #### What happens in functions stays in functions.
 
+@ul
 * Inside a function, you can look at the code "outside".
 * But to code outside, the code *inside* is an impenetrable black box.
+@ulend
 
 ---
 
